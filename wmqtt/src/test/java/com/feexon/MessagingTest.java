@@ -22,7 +22,7 @@ public class MessagingTest extends AbstractMQClientTest {
     public static final short RETRY_PER_MINUTE = 60;
 
 
-    private final String sentMessage = "c2dm wmqtt protocol协议ss";
+    private final String sentMessage = "c2dm wmqtt protocol";
     private final String topic = "feexon/comps";
     private final boolean cleanSession = true;
     private MqttMessageReceiverSpy messageSpy;
