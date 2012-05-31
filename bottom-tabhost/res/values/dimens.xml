@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="button_height">45.0dip</dimen>
+    <dimen name="bottom_tab_font_size">10.0dip</dimen>
+    <dimen name="bottom_tab_padding_top">3.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">1.0dip</dimen>
+    <dimen name="bottom_tab_margin_top">2.0dip</dimen>
+    <dimen name="bottom_tab_group_height">50dip</dimen>
+    <dimen name="bottom_tab_group_padding">5dip</dimen>
+</resources>

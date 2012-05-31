@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">bottom-tab</string>
+    <string name="labelHome">首页</string>
+    <string name="labelMsg">信息</string>
+    <string name="labelEstimation">评论</string>
+    <string name="labelSearch">搜索</string>
+    <string name="labelMore">更多</string>
+    <string name="tagMore">more</string>
+    <string name="tagSearch">search</string>
+    <string name="tagEstimation">estimation</string>
+    <string name="tagMsg">msg</string>
+    <string name="tagHome">home</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost android:id="@android:id/tabhost"
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+    <!--因为TabHost是FrameLayout的子类所以必须添加一个布局管理器使选项卡至于底部-->
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:orientation="vertical">
+        <TabWidget android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@android:id/tabs" android:visibility="gone"/>
+        <!--必须设置layout_weight属性让它填充父容器-->
+        <FrameLayout android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:id="@android:id/tabcontent"
+                     android:layout_weight="1" android:background="#fff"/>
+        <RadioGroup android:id="@+id/tab_group" android:checkedButton="@+id/home" style="@style/tab_group">
+            <RadioButton android:id="@+id/home" style="@style/tab"
+                         android:tag="@string/tagHome" android:drawableTop="@drawable/home" android:text="@string/labelHome"/>
+            <RadioButton style="@style/tab" android:tag="@string/tagMsg"
+                         android:drawableTop="@drawable/msg" android:text="@string/labelMsg"/>
+            <RadioButton style="@style/tab" android:tag="@string/tagEstimation"
+                         android:drawableTop="@drawable/estimation" android:text="@string/labelEstimation"/>
+            <RadioButton style="@style/tab" android:tag="@string/tagSearch"
+                         android:drawableTop="@drawable/search" android:text="@string/labelSearch"/>
+            <RadioButton style="@style/tab" android:tag="@string/tagMore"
+                         android:drawableTop="@drawable/more" android:text="@string/labelMore"/>
+        </RadioGroup>
+    </LinearLayout>
+</TabHost>

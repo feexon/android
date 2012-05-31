@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--当鼠标按下且没有被选中时，使用如下图片-->
+    <item android:state_pressed="true" android:state_checked="false" android:drawable="@drawable/bg_pressed"/>
+    <!--当被选中时使用如下图片-->
+    <item android:state_checked="true" android:drawable="@drawable/bg_selected"/>
+</selector>

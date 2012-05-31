@@ -1,0 +1,26 @@
+<resources>
+    <style name="tab">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/tab_bg</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_top</item>
+        <item name="android:layout_marginTop">@dimen/bottom_tab_margin_top</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+    </style>
+    <style name="tab_group">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/bottom_tab_group_height</item>
+        <item name="android:paddingLeft">@dimen/bottom_tab_group_padding</item>
+        <item name="android:paddingRight">@dimen/bottom_tab_group_padding</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/bg</item>
+    </style>
+</resources>
