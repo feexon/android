@@ -30,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="IdProvider" IDEtalkID="234D9277C9BAB201D4942664A91B3CBE" />
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
